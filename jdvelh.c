@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 struct Chapitre{
 	char description [400];
 	int gaindor;
@@ -34,10 +35,12 @@ if (choixdir == 1){
 else if (choixdir == 2){
 	printf ("Je me dirige vers le champ de bataille. Enfin ca l'etait. Tout le monde est mort. Il y a des cadavres a perte de vue. C'est horrible.");
 }
+
 else if (choixdir != 1, choixdir != 2){
 	printf ("Je dois me concentrer. Ou dois-je aller?");
 	scanf ("%d", &choixdir);
 }
+
 
 return 0;
 }
